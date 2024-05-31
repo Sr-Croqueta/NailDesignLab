@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: a;
+    src: url(../assets/font/NanumMyeongjo-Regular.ttf);
+}
+html,body {
+    
+    margin: 0px;
+    background-color: white !important;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, span, div, label, input, button, select, option, textarea {
+    font-family: a !important;
+}
+.content-wrapper{
+    font-family: a;
+    background-color: white !important;
+}
+
+.first-color { 
+	background: #d5def5; 
+}
+	
+.second-color { 
+	background: #8594e4; 
+}
+
+.third-color { 
+	background: #6643b5; 
+}
+
+.fourth-color { 
+	background: #430f58; 
+}
+#color{
+    color: #d5def5;
+}
+#color:hover {
+    color: #8594e4; 
+}
+
+#color2{
+    color: #6643b5;
+}
+#color2:hover {
+    color: #430f58; 
+}
+.button1 {
+    font-family: a;
+    background-color: #8594e4;
+    color: white;
+    padding: 4px 80px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.button1:hover {
+    background-color: #6643b5;
+}
